@@ -11,6 +11,7 @@ script_dir = os.path.dirname(script_path)
 # Creating new folder images in the same folder of the the script.
 image_cache_dir = os.path.join(script_dir, 'images')
 
+
 if not os.path.isdir(image_cache_dir):
     os.makedirs(image_cache_dir)
 
